@@ -11,7 +11,7 @@
 </head>
 <body>
 	<div id="entry">
-		<label> Enter an item: </label><input type="text" name="entry" maxlength="50">
+		<label> Enter an item: </label><input type="text" id="addItem" name="entry" maxlength="50">
 		<button id="enter">enter</button>
 	</div>
 
@@ -19,15 +19,25 @@
 		<button>Help</button>
 	</div>
 
+	<div id="helpInstructions">
+		<ul>
+			<img id="exitInstructions" src="images/xout2.gif">
+			<li>Add list item - Type item name and press enter.</li>
+			<li>Delete item - Hover over and click the "x". </li>
+			<li>Check off item - click anywhere inside item area.</li>
+			<li>Uncheck item - click inside item area again.</li>
+		</ul>
+	</div>
+
 	<div id="shoppingList">
 		<h1>Shopping List</h1>
-		<ol>
+		<ul>
 			<li>Bread </li>
 			<li>Butter</li>
 			<li>Milk</li>
 			<li>Paper</li>
 			<li>Oil</li>
-		</ol>
+		</ul>
 	</div>
 
 	

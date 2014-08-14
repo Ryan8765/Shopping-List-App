@@ -61,6 +61,11 @@ img.xout {
 	width: 20px;
 	height: 20px;
 	margin-left: 20px;
+	cursor:pointer;
+}
+
+img.xout:hover {
+	box-shadow:0px 0px 4px blue;
 }
 
 label {
@@ -119,6 +124,44 @@ cursor:pointer;
 
 #help button:active{
 	border: 3px solid black;
+}
+
+#helpInstructions {
+	border: 3px solid blue;
+	background: white;
+	color: blue;
+	width: 400px;
+	border-radius: 10px;
+	position: absolute;
+	right: 10px;
+	top: 37px;
+	display:none;
+}
+
+#helpInstructions li {
+	border:none;
+	font-family:"Times New Roman", Times, serif;
+	list-style-type:disc;
+	text-align:left;
+	padding-left:10px;
+}
+
+#helpInstructions img {
+	width: 20px;
+	height: 20px;
+	float:right;
+	margin:5px;
+	cursor:pointer;
+}
+
+#helpInstructions img:hover {
+	box-shadow:0px 0px 4px blue;
+}
+
+.boughtItem {
+	color: #888888;
+	text-decoration:line-through;
+	background: #D0D0D0;
 }
 
 /* * {
