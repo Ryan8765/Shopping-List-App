@@ -50,7 +50,7 @@ $(document).ready(function() {
 	//adds entered items to list using click
 	$('#entry').on('click', 'button', function() {
 		var itemAdd = $('#addItem').val();
-		if (itemAdd == "") {
+		if (itemAdd == "" || itemAdd.trim().length == 0) {
 			alert("Please enter an item");
 		} else {
 			$('#shoppingList ul').prepend('<li>' + itemAdd + '</li>');
@@ -62,7 +62,7 @@ $(document).ready(function() {
 	$('#entry').on('keyup','input', function(event) {
 		var itemAdd = $('#addItem').val();
 		if(event.keyCode == "13") {
-			if (itemAdd == "") {
+			if (itemAdd == "" || itemAdd.trim().length == 0) {
 			alert("Please enter an item");
 			} else {
 				$('#shoppingList ul').prepend('<li>' + itemAdd + '</li>');
