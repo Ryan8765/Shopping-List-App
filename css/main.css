@@ -73,7 +73,7 @@ label {
 }
 
 input {
-	border: 1px dashed black;
+	border: 1px solid black;
 	margin: 4px;
 	border-radius: 5px;
 	padding: 3px;
@@ -92,13 +92,7 @@ input:hover {
 	cursor: pointer;
 }
 
-#enter:hover {
-	border: 3px solid white;
-}
 
-#enter:active {
-	border: 3px solid grey;
-}
 
 #help {
 	position: absolute;
